@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+/**
+ * main - prints the alphabet in lowercase,
+ * Return: Aways 0 (Sucess)
+ */
+int main(void)
+{
+  int ch;
+
+  for (ch = 'a'; a <= 'z'; ch++)
+    {
+      if (ch != 'e' && ch != 'q')
+	{
+	  putchar(ch);
+	}
+    }
+  putchar('\n');
+  return (0);
+}
